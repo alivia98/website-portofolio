@@ -1,0 +1,51 @@
+/* 1. Selektor Universal (Reset margin/padding) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Selektor Elemen (Styling tag standar) */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* 3. Selektor ID (Minimal 3 untuk bagian utama) */
+#main-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#about { padding: 40px; }
+#contact { background: #eee; }
+
+/* 4. Selektor Kelas (Minimal 5 untuk komponen berulang) */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.card-container { display: flex; gap: 10px; }
+.project-list { display: grid; }
+
+/* 5. Pengelompokan Selektor (Style yang sama untuk beberapa elemen) */
+h1, h2, h3 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
